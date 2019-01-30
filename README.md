@@ -7,6 +7,7 @@ simple flight computer to serve as a learning bed for embedded software and pcb 
 - 3-axis accelerometer (ADXL345)
 - 2 or 3 programming leds
 - SD-Card reader
+-level stepper for SD-Card
 
 ## Requirements
 - fit in our current rocket (same dimensions as peregrine)
