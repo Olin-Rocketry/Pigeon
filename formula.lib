@@ -1697,6 +1697,21 @@ X ~ 5 0 500 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# JST-PH_2_RA
+#
+DEF JST-PH_2_RA J 0 40 Y Y 1 F N
+F0 "J" -50 100 50 H V C CNN
+F1 "JST-PH_2_RA" 0 200 50 H V C CNN
+F2 "footprints:JST-PH_2_RA" 0 250 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/datasheets/17311.pdf" 50 -300 50 H I C CNN
+F4 "https://www.adafruit.com/product/1769" 0 -200 50 H I C CNN "Purchasing Link"
+DRAW
+S -100 150 150 -100 0 1 0 f
+X ~ 1 350 100 200 L 50 50 1 1 P
+X ~ 2 350 -50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # L693D1
 #
 DEF L693D1 U 0 40 Y Y 1 F N
