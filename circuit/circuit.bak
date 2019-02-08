@@ -278,7 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 3600 7400 3500
 Connection ~ 7400 3600
-Text Label 7000 3700 0    50   ~ 0
+Text Label 7000 3700 2    50   ~ 0
 RESET
 Wire Wire Line
 	7000 3700 7400 3700
