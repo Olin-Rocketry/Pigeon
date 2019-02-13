@@ -1,6 +1,39 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Micro_SD_Card
+#
+DEF Connector_Micro_SD_Card J 0 40 Y Y 1 F N
+F0 "J" -650 600 50 H V C CNN
+F1 "Connector_Micro_SD_Card" 650 600 50 H V R CNN
+F2 "" 1150 300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ microSD*
+$ENDFPLIST
+DRAW
+S -300 -375 -200 -425 0 1 0 F
+S -300 -275 -200 -325 0 1 0 F
+S -300 -175 -200 -225 0 1 0 F
+S -300 -75 -200 -125 0 1 0 F
+S -300 25 -200 -25 0 1 0 F
+S -300 125 -200 75 0 1 0 F
+S -300 225 -200 175 0 1 0 F
+S -300 325 -200 275 0 1 0 F
+P 6 0 1 10 650 500 650 550 -750 550 -750 -650 650 -650 650 -450 N
+P 11 0 1 10 -350 -450 -350 350 -50 350 100 500 150 500 150 450 250 450 300 500 800 500 800 -450 -350 -450 f
+X DAT2 1 -900 300 150 R 50 50 1 1 B
+X DAT3/CD 2 -900 200 150 R 50 50 1 1 B
+X CMD 3 -900 100 150 R 50 50 1 1 I
+X VDD 4 -900 0 150 R 50 50 1 1 W
+X CLK 5 -900 -100 150 R 50 50 1 1 I
+X VSS 6 -900 -200 150 R 50 50 1 1 W
+X DAT0 7 -900 -300 150 R 50 50 1 1 I
+X DAT1 8 -900 -400 150 R 50 50 1 1 I
+X SHIELD 9 800 -600 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MCU_Microchip_ATmega_ATmega328P-AU
 #
 DEF MCU_Microchip_ATmega_ATmega328P-AU U 0 20 Y Y 1 F N
@@ -210,10 +243,10 @@ DEF formula_Crystal_SMD Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "formula_Crystal_SMD" 50 100 50 H V L CNN
 F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
-F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
+F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 50 175 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "SER3686CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
+F5 "887-1125-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" 450 575 60 H I C CNN "PurchasingLink"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -259,10 +292,10 @@ ENDDEF
 DEF formula_R_100 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "formula_R_100" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RNCP0805FTD100RCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -293,6 +326,23 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_SK812
+#
+DEF formula_SK812 U 0 40 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "formula_SK812" 50 -150 50 H V C CNN
+F2 "footprints:SK6812" 0 550 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" -300 300 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" -250 400 50 H I C CNN "PurchasingLink"
+DRAW
+S -200 250 300 -200 0 1 0 f
+X VSS 1 500 100 200 L 50 50 1 1 I
+X DIN 2 -400 -50 200 R 50 50 1 1 I
+X VDD 3 -400 100 200 R 50 50 1 1 I
+X DOUT 4 500 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
