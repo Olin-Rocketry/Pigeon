@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/william/Desktop/pigeon/circuit/circuit.sch</source>
+    <date>Tue 02 Apr 2019 08:23:06 PM EDT</date>
+    <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>circuit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D2">
+      <value>LED_0805</value>
+      <footprint>rocketry:LED_0805_OEM</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="" part="LED_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C51070D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_0805</value>
+      <footprint>rocketry:LED_0805_OEM</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="" part="LED_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5107AF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_0.1uF</value>
+      <footprint>rocketry:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="" part="C_0.1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C510B55</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_100</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C510DAA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_100pF</value>
+      <footprint>rocketry:C_0805_OEM</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012007057.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-7852-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479</field>
+      </fields>
+      <libsource lib="" part="C_100pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C510FF4</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_SMD</value>
+      <footprint>rocketry:Crystal_SMD_FA238</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">SER3686CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=SER3686CT-ND</field>
+      </fields>
+      <libsource lib="" part="Crystal_SMD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54BE36</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_30pF</value>
+      <footprint>rocketry:C_0805_OEM</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-1130-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
+      </fields>
+      <libsource lib="" part="C_30pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54BFB5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_30pF</value>
+      <footprint>rocketry:C_0805_OEM</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-1130-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
+      </fields>
+      <libsource lib="" part="C_30pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C54C399</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_200</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_200" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5A821D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_200</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_200" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5A8292</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_200</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_200" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C658351</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_1uF</value>
+      <footprint>rocketry:C_0805_OEM</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2887-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973</field>
+      </fields>
+      <libsource lib="" part="C_1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C645012</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_200</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_200" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6537F1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_0805</value>
+      <footprint>rocketry:LED_0805_OEM</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="" part="LED_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6539AB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_10K</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_10K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C65F207</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_10K</value>
+      <footprint>rocketry:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="" part="R_10K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C67E015</tstamp>
+    </comp>
+    <comp ref="SD1">
+      <value>Micro_SD_Card_A118117CT-ND</value>
+      <footprint>rocketry:Micro_SD_Card_A118117CT-ND</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2201778&amp;DocType=Customer+Drawing&amp;DocLang=JP</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A118117CT-ND</field>
+        <field name="MPN">2201778-1</field>
+      </fields>
+      <libsource lib="rocketry" part="Micro_SD_Card_A118117CT-ND" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6B510A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SK812</value>
+      <footprint>rocketry:SK6812</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</datasheet>
+      <fields>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679</field>
+      </fields>
+      <libsource lib="rocketry" part="SK812" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6B57C5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JST-PH_2_RA</value>
+      <footprint>rocketry:JST-PH_2_RA</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/17311.pdf</datasheet>
+      <fields>
+        <field name="Purchasing Link">https://www.adafruit.com/product/1769</field>
+      </fields>
+      <libsource lib="rocketry" part="JST-PH_2_RA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6C64F9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ATmega328-AU</value>
+      <footprint>rocketry:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6C96AB</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>USB_MicroB</value>
+      <footprint>Connectors_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">WM1399CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885</field>
+      </fields>
+      <libsource lib="rocketry" part="USB_MicroB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C686BB4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADXL345</value>
+      <footprint>rocketry:ADXL345</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">ADXL345BCCZ-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829</field>
+      </fields>
+      <libsource lib="rocketry" part="ADXL345" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6AACF0</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2887-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973</field>
+      </fields>
+      <libsource lib="rocketry" part="C_1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6A938B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="C_0.1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6A958F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>4050_Logic_Buffer</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/cd74hc4049.pdf</datasheet>
+      <fields>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/CD74HC4050M96/296-14529-1-ND/555596</field>
+      </fields>
+      <libsource lib="rocketry" part="4050_Logic_Buffer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E8983</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_4.7K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-4.7KARCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274</field>
+      </fields>
+      <libsource lib="rocketry" part="R_4.7K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C90A6D8</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_10K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C90EFA9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_4.7K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-4.7KARCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274</field>
+      </fields>
+      <libsource lib="rocketry" part="R_4.7K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C911A78</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TCR2EF33LM</value>
+      <footprint>rocketry:SOT25</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&amp;prodName=TCR2EF45</datasheet>
+      <fields>
+        <field name="MPN">TCR2EF33LM(CTCT-ND</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TCR2EF33LM-CT/TCR2EF33LM-CTCT-ND/4503328</field>
+      </fields>
+      <libsource lib="rocketry" part="TCR2EF33LM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C91BC44</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2887-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973</field>
+      </fields>
+      <libsource lib="" part="C_1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C92019A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="" part="C_0.1uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C922A22</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_10K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9329C8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="formula:C_0.1uF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">formula:C_0.1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:C_100pF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">formula:C_100pF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">https://katalog.we-online.de/pbs/datasheet/885012007057.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-7852-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:C_1uF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">formula:C_1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2887-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:C_30pF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">formula:C_30pF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-1130-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:Crystal_SMD">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">formula:Crystal_SMD</field>
+        <field name="Footprint">footprints:Crystal_SMD_FA238</field>
+        <field name="Datasheet">http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">887-1125-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:LED_0805">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">formula:LED_0805</field>
+        <field name="Footprint">footprints:LED_0805_OEM</field>
+        <field name="Datasheet">http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:R_100">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">formula:R_100</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:R_10K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">formula:R_10K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:R_200">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">formula:R_200</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega48A-AU">
+      <aliases>
+        <alias>ATmega48PA-AU</alias>
+        <alias>ATmega88A-AU</alias>
+        <alias>ATmega88PA-AU</alias>
+        <alias>ATmega168A-AU</alias>
+        <alias>ATmega168PA-AU</alias>
+        <alias>ATmega328-AU</alias>
+        <alias>ATmega328P-AU</alias>
+      </aliases>
+      <description>20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A_88A_168A-Data-Sheet-40002007A.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega48A-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="BiDi"/>
+        <pin num="2" name="PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="BiDi"/>
+        <pin num="8" name="XTAL2/PB7" type="BiDi"/>
+        <pin num="9" name="PD5" type="BiDi"/>
+        <pin num="10" name="PD6" type="BiDi"/>
+        <pin num="11" name="PD7" type="BiDi"/>
+        <pin num="12" name="PB0" type="BiDi"/>
+        <pin num="13" name="PB1" type="BiDi"/>
+        <pin num="14" name="PB2" type="BiDi"/>
+        <pin num="15" name="PB3" type="BiDi"/>
+        <pin num="16" name="PB4" type="BiDi"/>
+        <pin num="17" name="PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="input"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="BiDi"/>
+        <pin num="24" name="PC1" type="BiDi"/>
+        <pin num="25" name="PC2" type="BiDi"/>
+        <pin num="26" name="PC3" type="BiDi"/>
+        <pin num="27" name="PC4" type="BiDi"/>
+        <pin num="28" name="PC5" type="BiDi"/>
+        <pin num="29" name="~RESET~/PC6" type="BiDi"/>
+        <pin num="30" name="PD0" type="BiDi"/>
+        <pin num="31" name="PD1" type="BiDi"/>
+        <pin num="32" name="PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="4050_Logic_Buffer">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4050_Logic_Buffer</field>
+        <field name="Footprint">Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</field>
+        <field name="Datasheet">www.ti.com/lit/ds/symlink/cd74hc4049.pdf</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/CD74HC4050M96/296-14529-1-ND/555596</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="1Y" type="input"/>
+        <pin num="3" name="1A" type="input"/>
+        <pin num="4" name="2Y" type="input"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="3Y" type="input"/>
+        <pin num="7" name="3A" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="4A" type="input"/>
+        <pin num="10" name="4Y" type="input"/>
+        <pin num="11" name="5A" type="input"/>
+        <pin num="12" name="5Y" type="input"/>
+        <pin num="13" name="NC" type="input"/>
+        <pin num="14" name="6A" type="input"/>
+        <pin num="15" name="6Y" type="input"/>
+        <pin num="16" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="ADXL345">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADXL345</field>
+        <field name="Footprint">footprints:ADXL345</field>
+        <field name="Datasheet">http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">ADXL345BCCZ-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="VS" type="input"/>
+        <pin num="7" name="CS" type="input"/>
+        <pin num="8" name="INT1" type="input"/>
+        <pin num="9" name="INT2" type="input"/>
+        <pin num="12" name="SDO/ALT_ADDRESS" type="input"/>
+        <pin num="13" name="SDA/SDI/SDIO" type="input"/>
+        <pin num="14" name="SCL/SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="C_0.1uF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="C_1uF">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2887-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="JST-PH_2_RA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST-PH_2_RA</field>
+        <field name="Footprint">footprints:JST-PH_2_RA</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/17311.pdf</field>
+        <field name="Purchasing Link">https://www.adafruit.com/product/1769</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="Micro_SD_Card_A118117CT-ND">
+      <fields>
+        <field name="Reference">SD</field>
+        <field name="Value">Micro_SD_Card_A118117CT-ND</field>
+        <field name="Footprint">footprints:Micro_SD_Card_A118117CT-ND</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2201778&amp;DocType=Customer+Drawing&amp;DocLang=JP</field>
+        <field name="Digi-Key Part Number">A118117CT-ND</field>
+        <field name="MPN">2201778-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="CONN_01" type="input"/>
+        <pin num="10" name="CONN_02" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_10K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_4.7K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_4.7K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-4.7KARCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="SK812">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SK812</field>
+        <field name="Footprint">footprints:SK6812</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="input"/>
+        <pin num="2" name="DIN" type="input"/>
+        <pin num="3" name="VDD" type="input"/>
+        <pin num="4" name="DOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="TCR2EF33LM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCR2EF33LM</field>
+        <field name="Footprint">rocketry:SOT25</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&amp;prodName=TCR2EF45</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TCR2EF33LM-CT/TCR2EF33LM-CTCT-ND/4503328</field>
+        <field name="MPN">TCR2EF33LM(CTCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="USB_MicroB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_MicroB</field>
+        <field name="Footprint">Connectors_USB:USB_Micro-B_Molex-105017-0001</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">WM1399CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="rocketry">
+      <uri>/home/william/Desktop/pigeon/rocketry.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U5" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="SD1" pin="6"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U4-Pad32)">
+      <node ref="U4" pin="32"/>
+    </net>
+    <net code="3" name="/MISO_3V">
+      <node ref="SD1" pin="7"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="4" name="Net-(U6-Pad16)">
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="5" name="/SCL">
+      <node ref="U4" pin="28"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="6" name="/SCL_3V">
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="7" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="8" name="/SDA">
+      <node ref="U6" pin="12"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="9" name="/SDA_3V">
+      <node ref="U6" pin="11"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="10" name="/INT2">
+      <node ref="U4" pin="13"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="11" name="Net-(U4-Pad25)">
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad31)">
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C4-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U4-Pad30)">
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="20" name="/Neopix">
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="21" name="/P_LED_1">
+      <node ref="U4" pin="24"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(U4-Pad23)">
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="23" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="24" name="/INT1">
+      <node ref="U4" pin="14"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="25" name="Net-(R9-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="26" name="/SCK">
+      <node ref="U4" pin="17"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="27" name="VCC">
+      <node ref="U3" pin="6"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="SD1" pin="9"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="SD1" pin="4"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="29" name="/Battery+">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="30" name="/SCK_3V">
+      <node ref="SD1" pin="5"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="31" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="32" name="Net-(D3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="34" name="/RESET">
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="29"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="35" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C6-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="37" name="/MOSI_3V">
+      <node ref="SD1" pin="3"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="38" name="/SD_CS_3V">
+      <node ref="U6" pin="9"/>
+      <node ref="SD1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(SD1-Pad1)">
+      <node ref="SD1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(SD1-Pad8)">
+      <node ref="SD1" pin="8"/>
+    </net>
+    <net code="41" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="44" name="/SD_CS">
+      <node ref="U4" pin="11"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="45" name="/MISO">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="46" name="/MOSI">
+      <node ref="U4" pin="15"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="47" name="/cardIN">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="SD1" pin="10"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>
