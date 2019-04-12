@@ -214,17 +214,6 @@ RESET
 Wire Wire Line
 	9075 3125 9475 3125
 $Comp
-L power:VCC #PWR0106
-U 1 1 5C54E672
-P 9125 2825
-F 0 "#PWR0106" H 9125 2675 50  0001 C CNN
-F 1 "VCC" H 9275 2825 50  0000 C CNN
-F 2 "" H 9125 2825 50  0001 C CNN
-F 3 "" H 9125 2825 50  0001 C CNN
-	1    9125 2825
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0107
 U 1 1 5C54E97F
 P 10425 4225
@@ -1077,5 +1066,7 @@ Text Label 9825 2925 2    50   ~ 0
 SCL
 NoConn ~ 9825 2425
 Text Label 4050 5750 0    50   ~ 0
+Battery+
+Text Label 9125 2825 2    50   ~ 0
 Battery+
 $EndSCHEMATC
