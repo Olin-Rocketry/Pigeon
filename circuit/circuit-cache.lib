@@ -1,139 +1,59 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MCU_Microchip_ATmega_ATmega328P-AU
+# MCU_Microchip_ATmega:ATmega328-AU
 #
-DEF MCU_Microchip_ATmega_ATmega328P-AU U 0 20 Y Y 1 F N
+DEF MCU_Microchip_ATmega:ATmega328-AU U 0 20 Y Y 1 F N
 F0 "U" -500 1450 50 H V L BNN
-F1 "MCU_Microchip_ATmega_ATmega328P-AU" 100 -1450 50 H V L TNN
+F1 "MCU_Microchip_ATmega:ATmega328-AU" 100 -1450 50 H V L TNN
 F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATmega48P-20AU ATmega48A-AU ATmega48PA-AU ATmega88PV-10AU ATmega88P-20AU ATmega88A-AU ATmega88PA-AU ATmega168PV-10AU ATmega168P-20AU ATmega168A-AU ATmega168PA-AU ATmega328-AU ATmega328P-AU
+ALIAS ATmega48PA-AU ATmega88A-AU ATmega88PA-AU ATmega168A-AU ATmega168PA-AU ATmega328-AU ATmega328P-AU
 $FPLIST
  TQFP*7x7mm*P0.8mm*
 $ENDFPLIST
 DRAW
 S -500 -1400 500 1400 0 1 10 f
-X PD3 1 600 -800 100 L 50 50 1 1 T
-X PD6 10 600 -1100 100 L 50 50 1 1 T
-X PD7 11 600 -1200 100 L 50 50 1 1 T
-X PB0 12 600 1200 100 L 50 50 1 1 T
-X PB1 13 600 1100 100 L 50 50 1 1 T
-X PB2 14 600 1000 100 L 50 50 1 1 T
-X PB3 15 600 900 100 L 50 50 1 1 T
-X PB4 16 600 800 100 L 50 50 1 1 T
-X PB5 17 600 700 100 L 50 50 1 1 T
+X PD3 1 600 -800 100 L 50 50 1 1 B
+X PD6 10 600 -1100 100 L 50 50 1 1 B
+X PD7 11 600 -1200 100 L 50 50 1 1 B
+X PB0 12 600 1200 100 L 50 50 1 1 B
+X PB1 13 600 1100 100 L 50 50 1 1 B
+X PB2 14 600 1000 100 L 50 50 1 1 B
+X PB3 15 600 900 100 L 50 50 1 1 B
+X PB4 16 600 800 100 L 50 50 1 1 B
+X PB5 17 600 700 100 L 50 50 1 1 B
 X AVCC 18 100 1500 100 D 50 50 1 1 W
 X ADC6 19 -600 1000 100 R 50 50 1 1 I
-X PD4 2 600 -900 100 L 50 50 1 1 T
-X AREF 20 -600 1200 100 R 50 50 1 1 P
+X PD4 2 600 -900 100 L 50 50 1 1 B
+X AREF 20 -600 1200 100 R 50 50 1 1 I
 X GND 21 0 -1500 100 U 50 50 1 1 P N
 X ADC7 22 -600 900 100 R 50 50 1 1 I
-X PC0 23 600 300 100 L 50 50 1 1 T
-X PC1 24 600 200 100 L 50 50 1 1 T
-X PC2 25 600 100 100 L 50 50 1 1 T
-X PC3 26 600 0 100 L 50 50 1 1 T
-X PC4 27 600 -100 100 L 50 50 1 1 T
-X PC5 28 600 -200 100 L 50 50 1 1 T
-X ~RESET~/PC6 29 600 -300 100 L 50 50 1 1 T
+X PC0 23 600 300 100 L 50 50 1 1 B
+X PC1 24 600 200 100 L 50 50 1 1 B
+X PC2 25 600 100 100 L 50 50 1 1 B
+X PC3 26 600 0 100 L 50 50 1 1 B
+X PC4 27 600 -100 100 L 50 50 1 1 B
+X PC5 28 600 -200 100 L 50 50 1 1 B
+X ~RESET~/PC6 29 600 -300 100 L 50 50 1 1 B
 X GND 3 0 -1500 100 U 50 50 1 1 W
-X PD0 30 600 -500 100 L 50 50 1 1 T
-X PD1 31 600 -600 100 L 50 50 1 1 T
-X PD2 32 600 -700 100 L 50 50 1 1 T
+X PD0 30 600 -500 100 L 50 50 1 1 B
+X PD1 31 600 -600 100 L 50 50 1 1 B
+X PD2 32 600 -700 100 L 50 50 1 1 B
 X VCC 4 0 1500 100 D 50 50 1 1 W
 X GND 5 0 -1500 100 U 50 50 1 1 P N
 X VCC 6 0 1500 100 D 50 50 1 1 P N
-X XTAL1/PB6 7 600 600 100 L 50 50 1 1 T
-X XTAL2/PB7 8 600 500 100 L 50 50 1 1 T
-X PD5 9 600 -1000 100 L 50 50 1 1 T
+X XTAL1/PB6 7 600 600 100 L 50 50 1 1 B
+X XTAL2/PB7 8 600 500 100 L 50 50 1 1 B
+X PD5 9 600 -1000 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_MIC5504-3.3YM5
+# formula:C_0.1uF
 #
-DEF Regulator_Linear_MIC5504-3.3YM5 U 0 20 Y Y 1 F N
-F0 "U" -300 350 50 H V L CNN
-F1 "Regulator_Linear_MIC5504-3.3YM5" -300 250 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 -400 50 H I C CNN
-F3 "" -250 250 50 H I C CNN
-ALIAS MIC5504-2.8YM5 MIC5504-2.5YM5 MIC5504-1.8YM5 MIC5504-1.2YM5 MIC5501-3.0YM5
-$FPLIST
- SOT?23?5*
-$ENDFPLIST
-DRAW
-S -300 -200 300 200 0 1 10 f
-X VIN 1 -400 100 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X EN 3 -400 -100 100 R 50 50 1 1 I
-X NC 4 300 -100 100 L 50 50 1 1 N N
-X VOUT 5 400 100 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# formula_ADXL345
-#
-DEF formula_ADXL345 U 0 40 Y Y 1 F N
-F0 "U" -200 550 60 H V C CNN
-F1 "formula_ADXL345" -50 450 60 H V C CNN
-F2 "footprints:ADXL345" 150 800 60 H I C CNN
-F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf" -550 600 60 H I C CNN
-F4 "DK" 650 450 60 H I C CNN "MFN"
-F5 "ADXL345BCCZ-ND" 750 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829" 850 650 60 H I C CNN "PurchasingLink"
-DRAW
-S 800 400 -250 -400 0 1 0 f
-X VDD 1 -450 100 200 R 50 50 1 1 I
-X SDO/ALT_ADDRESS 12 1000 -50 200 L 50 50 1 1 I
-X SDA/SDI/SDIO 13 1000 50 200 L 50 50 1 1 I
-X SCL/SCLK 14 1000 150 200 L 50 50 1 1 I
-X GND 2 -450 -100 200 R 50 50 1 1 I
-X GND 4 -450 -200 200 R 50 50 1 1 I
-X GND 5 -450 -300 200 R 50 50 1 1 I
-X VS 6 -450 0 200 R 50 50 1 1 I
-X CS 7 1000 -350 200 L 50 50 1 1 I
-X INT1 8 1000 -250 200 L 50 50 1 1 I
-X INT2 9 1000 -150 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# formula_CONN_02X03
-#
-DEF formula_CONN_02X03 J 0 1 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "formula_CONN_02X03" 0 -200 50 H V C CNN
-F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
-F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "609-3234-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
-$FPLIST
- Pin_Header_Straight_2X03
- Pin_Header_Angled_2X03
- Socket_Strip_Straight_2X03
- Socket_Strip_Angled_2X03
-$ENDFPLIST
-DRAW
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 150 100 -150 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-X P1 1 -250 100 150 R 50 50 1 1 P
-X P2 2 250 100 150 L 50 50 1 1 P
-X P3 3 -250 0 150 R 50 50 1 1 P
-X P4 4 250 0 150 L 50 50 1 1 P
-X P5 5 -250 -100 150 R 50 50 1 1 P
-X P6 6 250 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_C_0.1uF
-#
-DEF formula_C_0.1uF C 0 10 N Y 1 F N
+DEF formula:C_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "formula_C_0.1uF" 25 -100 50 H V L CNN
+F1 "formula:C_0.1uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -154,11 +74,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_C_100pF
+# formula:C_100pF
 #
-DEF formula_C_100pF C 0 10 N Y 1 F N
+DEF formula:C_100pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "formula_C_100pF" 25 -100 50 H V L CNN
+F1 "formula:C_100pF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -179,11 +99,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_C_1uF
+# formula:C_1uF
 #
-DEF formula_C_1uF C 0 10 N Y 1 F N
+DEF formula:C_1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "formula_C_1uF" 25 -100 50 H V L CNN
+F1 "formula:C_1uF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -204,11 +124,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_C_30pF
+# formula:C_30pF
 #
-DEF formula_C_30pF C 0 10 N Y 1 F N
+DEF formula:C_30pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "formula_C_30pF" 25 -100 50 H V L CNN
+F1 "formula:C_30pF" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -229,11 +149,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_Crystal_SMD
+# formula:Crystal_SMD
 #
-DEF formula_Crystal_SMD Y 0 40 Y N 1 F N
+DEF formula:Crystal_SMD Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "formula_Crystal_SMD" 50 100 50 H V L CNN
+F1 "formula:Crystal_SMD" 50 100 50 H V L CNN
 F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
 F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" 50 175 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -255,26 +175,11 @@ X 4 4 0 150 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_JST-PH_2_RA
+# formula:LED_0805
 #
-DEF formula_JST-PH_2_RA J 0 40 Y Y 1 F N
-F0 "J" -50 100 50 H V C CNN
-F1 "formula_JST-PH_2_RA" 0 200 50 H V C CNN
-F2 "footprints:JST-PH_2_RA" 0 250 50 H I C CNN
-F3 "https://cdn-shop.adafruit.com/datasheets/17311.pdf" 50 -300 50 H I C CNN
-F4 "https://www.adafruit.com/product/1769" 0 -200 50 H I C CNN "Purchasing Link"
-DRAW
-S -100 150 150 -100 0 1 0 f
-X ~ 1 350 100 200 L 50 50 1 1 P
-X ~ 2 350 -50 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_LED_0805
-#
-DEF formula_LED_0805 D 0 40 N N 1 F N
+DEF formula:LED_0805 D 0 40 N N 1 F N
 F0 "D" 0 -100 50 H V C CNN
-F1 "formula_LED_0805" 0 100 50 H V C CNN
+F1 "formula:LED_0805" 0 100 50 H V C CNN
 F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -294,11 +199,221 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_Micro_SD_Card_A118117CT-ND
+# formula:R_100
 #
-DEF formula_Micro_SD_Card_A118117CT-ND SD 0 40 Y Y 1 F N
+DEF formula:R_100 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula:R_100" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula:R_10K
+#
+DEF formula:R_10K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula:R_10K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula:R_200
+#
+DEF formula:R_200 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula:R_200" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:VCC
+#
+DEF power:VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# rocketry:4050_Logic_Buffer
+#
+DEF rocketry:4050_Logic_Buffer U 0 40 Y Y 1 F N
+F0 "U" 0 550 50 H V C CNN
+F1 "rocketry:4050_Logic_Buffer" 0 -450 50 H V C CNN
+F2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" -50 0 50 H I C CNN
+F3 "www.ti.com/lit/ds/symlink/cd74hc4049.pdf" -50 0 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/texas-instruments/CD74HC4050M96/296-14529-1-ND/555596" 100 650 50 H V C CNN "Purchasing Link"
+DRAW
+S -250 600 200 -400 0 1 0 f
+X VCC 1 -450 450 200 R 50 50 1 1 I
+X 4Y 10 400 -150 200 L 50 50 1 1 I
+X 5A 11 400 -50 200 L 50 50 1 1 I
+X 5Y 12 400 50 200 L 50 50 1 1 I
+X NC 13 400 150 200 L 50 50 1 1 I
+X 6A 14 400 250 200 L 50 50 1 1 I
+X 6Y 15 400 350 200 L 50 50 1 1 I
+X NC 16 400 450 200 L 50 50 1 1 I
+X 1Y 2 -450 350 200 R 50 50 1 1 I
+X 1A 3 -450 250 200 R 50 50 1 1 I
+X 2Y 4 -450 150 200 R 50 50 1 1 I
+X 2A 5 -450 50 200 R 50 50 1 1 I
+X 3Y 6 -450 -50 200 R 50 50 1 1 I
+X 3A 7 -450 -150 200 R 50 50 1 1 I
+X GND 8 -450 -250 200 R 50 50 1 1 I
+X 4A 9 400 -250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# rocketry:ADXL345
+#
+DEF rocketry:ADXL345 U 0 40 Y Y 1 F N
+F0 "U" -200 550 60 H V C CNN
+F1 "rocketry:ADXL345" -50 450 60 H V C CNN
+F2 "footprints:ADXL345" 150 800 60 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf" -550 600 60 H I C CNN
+F4 "DK" 650 450 60 H I C CNN "MFN"
+F5 "ADXL345BCCZ-ND" 750 550 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829" 850 650 60 H I C CNN "PurchasingLink"
+DRAW
+S 800 400 -250 -400 0 1 0 f
+X VDD 1 -450 100 200 R 50 50 1 1 I
+X SDO/ALT_ADDRESS 12 1000 -50 200 L 50 50 1 1 I
+X SDA/SDI/SDIO 13 1000 50 200 L 50 50 1 1 I
+X SCL/SCLK 14 1000 150 200 L 50 50 1 1 I
+X GND 2 -450 -100 200 R 50 50 1 1 I
+X GND 4 -450 -200 200 R 50 50 1 1 I
+X GND 5 -450 -300 200 R 50 50 1 1 I
+X VS 6 -450 0 200 R 50 50 1 1 I
+X CS 7 1000 -350 200 L 50 50 1 1 I
+X INT1 8 1000 -250 200 L 50 50 1 1 I
+X INT2 9 1000 -150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# rocketry:C_0.1uF
+#
+DEF rocketry:C_0.1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "rocketry:C_0.1uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# rocketry:C_1uF
+#
+DEF rocketry:C_1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "rocketry:C_1uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "1276-2887-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# rocketry:JST-PH_2_RA
+#
+DEF rocketry:JST-PH_2_RA J 0 40 Y Y 1 F N
+F0 "J" -50 100 50 H V C CNN
+F1 "rocketry:JST-PH_2_RA" 0 200 50 H V C CNN
+F2 "footprints:JST-PH_2_RA" 0 250 50 H I C CNN
+F3 "https://cdn-shop.adafruit.com/datasheets/17311.pdf" 50 -300 50 H I C CNN
+F4 "https://www.adafruit.com/product/1769" 0 -200 50 H I C CNN "Purchasing Link"
+DRAW
+S -100 150 150 -100 0 1 0 f
+X ~ 1 350 100 200 L 50 50 1 1 P
+X ~ 2 350 -50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# rocketry:Micro_SD_Card_A118117CT-ND
+#
+DEF rocketry:Micro_SD_Card_A118117CT-ND SD 0 40 Y Y 1 F N
 F0 "SD" 0 800 50 H V C CNN
-F1 "formula_Micro_SD_Card_A118117CT-ND" 0 700 50 H V C CNN
+F1 "rocketry:Micro_SD_Card_A118117CT-ND" 0 700 50 H V C CNN
 F2 "footprints:Micro_SD_Card_A118117CT-ND" 50 1250 50 H I C CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2201778&DocType=Customer+Drawing&DocLang=JP" 100 900 50 H I C CNN
 F4 "A118117CT-ND" 0 1000 50 H V C CNN "Digi-Key Part Number"
@@ -327,32 +442,11 @@ X CONN_01 9 -900 -350 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_R_100
+# rocketry:R_10K
 #
-DEF formula_R_100 R 0 0 N Y 1 F N
+DEF rocketry:R_10K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_100" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_R_10K
-#
-DEF formula_R_10K R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_10K" -100 0 50 V V C CNN
+F1 "rocketry:R_10K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -369,19 +463,19 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_R_200
+# rocketry:R_4.7K
 #
-DEF formula_R_200 R 0 0 N Y 1 F N
+DEF rocketry:R_4.7K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_200" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+F1 "rocketry:R_4.7K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" 80 0 50 V I C CNN
+F4 "DK" 180 100 60 V I C CNN "MFN"
+F5 "311-4.7KARCT-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274" 380 300 60 V I C CNN "PurchasingLink"
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -390,11 +484,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_SK812
+# rocketry:SK812
 #
-DEF formula_SK812 U 0 40 Y Y 1 F N
+DEF rocketry:SK812 U 0 40 Y Y 1 F N
 F0 "U" 50 200 50 H V C CNN
-F1 "formula_SK812" 50 -150 50 H V C CNN
+F1 "rocketry:SK812" 50 -150 50 H V C CNN
 F2 "footprints:SK6812" 0 550 50 H I C CNN
 F3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" -300 300 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" -250 400 50 H I C CNN "PurchasingLink"
@@ -407,30 +501,57 @@ X DOUT 4 500 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# rocketry:TCR2EF33LM
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF rocketry:TCR2EF33LM U 0 40 Y Y 1 F N
+F0 "U" -100 150 50 H V C CNN
+F1 "rocketry:TCR2EF33LM" -100 250 50 H V C CNN
+F2 "rocketry:SOT25" 0 500 50 H I C CNN
+F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45" -200 750 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TCR2EF33LM-CT/TCR2EF33LM-CTCT-ND/4503328" -100 850 50 H I C CNN "Purchasing Link"
+F5 "TCR2EF33LM(CTCT-ND" -100 600 50 H I C CNN "MPN"
 DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+S -350 200 200 -200 0 1 0 f
+X VIN 1 -550 100 200 R 50 50 1 1 I
+X GND 2 -550 -100 200 R 50 50 1 1 I
+X EN 3 -550 0 200 R 50 50 1 1 I
+X NC 4 400 -100 200 L 50 50 1 1 N
+X VOUT 5 400 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_VCC
+# rocketry:USB_MicroB
 #
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF rocketry:USB_MicroB U 0 40 Y Y 1 F N
+F0 "U" 150 -350 50 H V C CNN
+F1 "rocketry:USB_MicroB" 0 350 50 H V C CNN
+F2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" -50 350 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" -50 350 50 H I C CNN
+F4 "DK" 250 -250 50 H I C CNN "MFN"
+F5 "WM1399CT-ND" 350 -150 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" 450 -50 50 H I C CNN "PurchasingLink"
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
+C -150 85 25 1 1 10 F
+C -25 135 15 1 1 10 F
+S -200 -300 200 300 1 1 10 f
+S -5 -300 5 -270 1 1 0 N
+S 10 50 -20 20 1 1 10 F
+S 200 -205 170 -195 1 1 0 N
+S 200 -105 170 -95 1 1 0 N
+S 200 -5 170 5 1 1 0 N
+S 200 195 170 205 1 1 0 N
+P 2 1 1 10 -75 85 25 85 N
+P 4 1 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 1 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 1 1 10 25 110 25 60 75 85 25 110 F
+P 5 1 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 1 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

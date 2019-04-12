@@ -1,0 +1,39 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,MPN,PurchasingLink,Purchasing Link,Digi-Key Part Number
+1,b'',b'C_0.1uF',b'C2',b'C_0.1uF',b'C_0805_OEM',b'1',b'http://datasheets.avx.com/X7RDielectric.pdf',b'DK',b'478-3352-1-ND',b'https://www.digikey.com/products/en?keywords=478-3352-1-ND',b'',b''
+2,b'',b'C_0.1uF',b'C7',b'C_0.1uF',b'C_0805_OEM',b'1',b'http://datasheets.avx.com/X7RDielectric.pdf',b'DK',b'478-3352-1-ND',b'https://www.digikey.com/products/en?keywords=478-3352-1-ND',b'',b''
+3,b'',b'C_0.1uF',b'C9',b'C_0.1uF',b'C_0805_OEM',b'1',b'http://datasheets.avx.com/X7RDielectric.pdf',b'DK',b'478-3352-1-ND',b'https://www.digikey.com/products/en?keywords=478-3352-1-ND',b'',b''
+4,b'',b'C_100pF',b'C6',b'C_100pF',b'C_0805_OEM',b'1',b'https://katalog.we-online.de/pbs/datasheet/885012007057.pdf',b'DK',b'732-7852-1-ND',b'https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479',b'',b''
+5,b'',b'C_1uF',b'C1',b'C_1uF',b'C_0805_OEM',b'1',b'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf',b'DK',b'1276-2887-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973',b'',b''
+6,b'',b'C_1uF',b'C3',b'C_1uF',b'C_0805_OEM',b'1',b'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf',b'DK',b'1276-2887-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973',b'',b''
+7,b'',b'C_1uF',b'C8',b'C_1uF',b'C_0805_OEM',b'1',b'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf',b'DK',b'1276-2887-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973',b'',b''
+8,b'',b'C_30pF',b'C4 C5',b'C_30pF',b'C_0805_OEM',b'2',b'https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf',b'DK',b'1276-1130-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216',b'',b''
+9,b'',b'LED_0805',b'D1 D2 D3',b'LED_0805',b'LED_0805_OEM',b'3',b'http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf',b'DK',b'475-1410-1-ND',b'https://www.digikey.com/products/en?keywords=475-1410-1-ND',b'',b''
+10,b'',b'JST-PH_2_RA',b'J1',b'JST-PH_2_RA',b'JST-PH_2_RA',b'1',b'https://cdn-shop.adafruit.com/datasheets/17311.pdf',b'',b'',b'',b'https://www.adafruit.com/product/1769',b''
+11,b'',b'R_100',b'R7',b'R_100',b'R_0805_OEM',b'1',b'https://www.seielect.com/Catalog/SEI-rncp.pdf',b'DK',b'RNCP0805FTD100RCT-ND',b'https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND',b'',b''
+12,b'',b'R_10K',b'R9 R11',b'R_10K',b'R_0805_OEM',b'2',b'http://www.bourns.com/data/global/pdfs/CRS.pdf',b'DK',b'CRS0805-FX-1002ELFCT-ND',b'https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND',b'',b''
+13,b'',b'R_10K',b'R4 R6',b'R_10K',b'R_0805_OEM',b'2',b'http://www.bourns.com/data/global/pdfs/CRS.pdf',b'DK',b'CRS0805-FX-1002ELFCT-ND',b'https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND',b'',b''
+14,b'',b'R_200',b'R1 R2 R3 R5',b'R_200',b'R_0805_OEM',b'4',b'https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf',b'DK',b'RMCF0805JT200RCT-ND',b'https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND',b'',b''
+15,b'',b'R_4.7K',b'R8 R10',b'R_4.7K',b'R_0805_OEM',b'2',b'http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf',b'DK',b'311-4.7KARCT-ND',b'https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274',b'',b''
+16,b'',b'Micro_SD_Card_A118117CT-ND',b'SD1',b'Micro_SD_Card_A118117CT-ND',b'Micro_SD_Card_A118117CT-ND',b'1',b'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2201778&DocType=Customer+Drawing&DocLang=JP',b'',b'2201778-1',b'',b'',b'A118117CT-ND'
+17,b'',b'4050_Logic_Buffer',b'U6',b'4050_Logic_Buffer',b'SOIC-16_3.9x9.9mm_Pitch1.27mm',b'1',b'www.ti.com/lit/ds/symlink/cd74hc4049.pdf',b'',b'',b'',b'https://www.digikey.com/product-detail/en/texas-instruments/CD74HC4050M96/296-14529-1-ND/555596',b''
+18,b'',b'ADXL345',b'U3',b'ADXL345',b'ADXL345',b'1',b'http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf',b'DK',b'ADXL345BCCZ-ND',b'https://www.digikey.com/product-detail/en/analog-devices-inc/ADXL345BCCZ/ADXL345BCCZ-ND/2034829',b'',b''
+19,"b'20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32'",b'ATmega328-AU',b'U4',b'ATmega328-AU',b'TQFP-32_7x7mm_Pitch0.8mm',b'1',b'http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf',b'',b'',b'',b'',b''
+20,b'',b'SK812',b'U1',b'SK812',b'SK6812',b'1',b'https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf',b'',b'',b'https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679',b'',b''
+21,b'',b'TCR2EF33LM',b'U2',b'TCR2EF33LM',b'SOT25',b'1',b'https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45',b'',b'TCR2EF33LM(CTCT-ND',b'',b'https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TCR2EF33LM-CT/TCR2EF33LM-CTCT-ND/4503328',b''
+22,b'',b'USB_MicroB',b'U5',b'USB_MicroB',b'USB_Micro-B_Molex-105017-0001',b'1',b'https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf',b'DK',b'WM1399CT-ND',b'https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885',b'',b''
+23,b'',b'Crystal_SMD',b'Y1',b'Crystal_SMD',b'Crystal_SMD_FA238',b'1',b'https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf',b'DK',b'SER3686CT-ND',b'https://www.digikey.com/products/en?keywords=SER3686CT-ND',b'',b''
+
+
+
+
+
+Component Groups:,23
+Component Count:,32
+Fitted Components:,32
+Number of PCBs:,1
+Total components:,32
+Schematic Version:,
+Schematic Date:,
+BoM Date:,b'Tue 02 Apr 2019 08:23:06 PM EDT'
+Schematic Source:,b'/home/william/Desktop/pigeon/circuit/circuit.sch'
+KiCad Version:,b'Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1'
