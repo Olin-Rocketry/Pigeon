@@ -419,32 +419,6 @@ F 3 "" H 3500 6225 50  0001 C CNN
 	1    3500 6225
 	-1   0    0    -1  
 $EndComp
-Text Label 8675 5500 2    50   ~ 0
-SCK_3V
-Text Label 8675 5700 2    50   ~ 0
-MISO_3V
-$Comp
-L power:VCC #PWR0121
-U 1 1 5C64965B
-P 8250 5250
-F 0 "#PWR0121" H 8250 5100 50  0001 C CNN
-F 1 "VCC" H 8267 5423 50  0000 C CNN
-F 2 "" H 8250 5250 50  0001 C CNN
-F 3 "" H 8250 5250 50  0001 C CNN
-	1    8250 5250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5C649692
-P 8125 5900
-F 0 "#PWR0122" H 8125 5650 50  0001 C CNN
-F 1 "GND" H 8130 5727 50  0000 C CNN
-F 2 "" H 8125 5900 50  0001 C CNN
-F 3 "" H 8125 5900 50  0001 C CNN
-	1    8125 5900
-	-1   0    0    -1  
-$EndComp
 $Comp
 L formula:R_200 R2
 U 1 1 5C6537F1
@@ -484,57 +458,8 @@ F 3 "" H 1000 7250 50  0001 C CNN
 	1    1000 7250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L formula:R_10K R4
-U 1 1 5C65F207
-P 1700 7200
-F 0 "R4" H 1770 7246 50  0000 L CNN
-F 1 "R_10K" H 1770 7155 50  0000 L CNN
-F 2 "rocketry:R_0805_OEM" H 1630 7200 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 1780 7200 50  0001 C CNN
-F 4 "DK" H 1700 7200 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 1700 7200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 2180 7600 60  0001 C CNN "PurchasingLink"
-	1    1700 7200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5C66A2FF
-P 1700 7350
-F 0 "#PWR0124" H 1700 7100 50  0001 C CNN
-F 1 "GND" H 1705 7177 50  0000 C CNN
-F 2 "" H 1700 7350 50  0001 C CNN
-F 3 "" H 1700 7350 50  0001 C CNN
-	1    1700 7350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 6900 1000 7250
-Wire Wire Line
-	1700 7050 1700 6900
-Wire Wire Line
-	1750 6900 1700 6900
-Connection ~ 1700 6900
-Wire Wire Line
-	1700 6900 1600 6900
-$Comp
-L power:VCC #PWR0125
-U 1 1 5C6735B4
-P 8350 5775
-F 0 "#PWR0125" H 8350 5625 50  0001 C CNN
-F 1 "VCC" H 8450 5800 50  0000 C CNN
-F 2 "" H 8350 5775 50  0001 C CNN
-F 3 "" H 8350 5775 50  0001 C CNN
-	1    8350 5775
-	-1   0    0    -1  
-$EndComp
-Text Label 8675 6000 2    50   ~ 0
-cardIN
-Text Label 1750 6900 0    50   ~ 0
-cardIN
-Text Label 9825 1525 2    50   ~ 0
-cardIN
 $Comp
 L formula:R_10K R6
 U 1 1 5C67E015
@@ -556,36 +481,9 @@ Wire Wire Line
 Wire Wire Line
 	9475 3025 9825 3025
 NoConn ~ 9825 3625
-NoConn ~ 8675 5100
-NoConn ~ 8675 5800
 NoConn ~ 11025 1525
 NoConn ~ 11025 1725
 NoConn ~ 11025 1825
-Wire Wire Line
-	8675 5400 8250 5400
-Wire Wire Line
-	8250 5400 8250 5250
-Wire Wire Line
-	8350 5775 8350 5900
-Wire Wire Line
-	8350 5900 8675 5900
-Wire Wire Line
-	8675 5600 8125 5600
-Wire Wire Line
-	8125 5600 8125 5900
-$Comp
-L rocketry:Micro_SD_Card_A118117CT-ND SD1
-U 1 1 5C6B510A
-P 9575 5550
-F 0 "SD1" H 10404 5687 50  0000 L CNN
-F 1 "Micro_SD_Card_A118117CT-ND" H 10404 5596 50  0000 L CNN
-F 2 "rocketry:Micro_SD_Card_A118117CT-ND" H 9625 6800 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2201778&DocType=Customer+Drawing&DocLang=JP" H 9675 6450 50  0001 C CNN
-F 4 "A118117CT-ND" H 10404 5505 50  0000 L CNN "Digi-Key Part Number"
-F 5 "2201778-1" H 10404 5414 50  0000 L CNN "MPN"
-	1    9575 5550
-	1    0    0    -1  
-$EndComp
 $Comp
 L rocketry:SK812 U1
 U 1 1 5C6B57C5
@@ -654,8 +552,6 @@ F 3 "" H 975 3125 50  0001 C CNN
 	1    975  3125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1375 2450 1475 2450
 Wire Wire Line
 	4075 2750 4075 2850
 Wire Wire Line
@@ -766,16 +662,8 @@ Wire Wire Line
 Wire Wire Line
 	4050 5925 4050 5750
 Connection ~ 3500 5925
-Text Label 8675 5300 2    50   ~ 0
-MOSI_3V
-Wire Wire Line
-	10425 675  10325 675 
 Wire Wire Line
 	10425 675  10425 1025
-Text Label 10325 675  2    50   ~ 0
-Battery+
-Text Label 1475 2450 0    50   ~ 0
-Battery+
 Wire Wire Line
 	5525 2700 5525 2550
 $Comp
@@ -882,8 +770,6 @@ F 3 "" H 5825 3200 50  0001 C CNN
 	1    5825 3200
 	1    0    0    -1  
 $EndComp
-Text Label 8675 5200 2    50   ~ 0
-SD_CS_3V
 Text Label 9825 1925 2    50   ~ 0
 MISO
 Text Label 9825 1825 2    50   ~ 0
@@ -893,10 +779,6 @@ SDA
 Text Label 9825 2925 2    50   ~ 0
 SCL
 NoConn ~ 9825 2425
-Text Label 4050 5750 0    50   ~ 0
-Battery+
-Text Label 9125 2825 2    50   ~ 0
-Battery+
 $Comp
 L rocketry:LM1117MPX-3.3 U2
 U 1 1 5CB12A1A
@@ -961,10 +843,10 @@ Wire Wire Line
 Wire Wire Line
 	3225 1500 3225 1675
 $Comp
-L rocketry:R_10K R?
+L rocketry:R_10K R4
 U 1 1 5CB428D3
 P 5525 2400
-F 0 "R?" H 5595 2446 50  0000 L CNN
+F 0 "R4" H 5595 2446 50  0000 L CNN
 F 1 "R_10K" H 5595 2355 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5455 2400 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5605 2400 50  0001 C CNN
@@ -975,10 +857,10 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 600
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketry:R_10K R?
+L rocketry:R_10K R8
 U 1 1 5CB429A6
 P 5975 2400
-F 0 "R?" H 6045 2446 50  0000 L CNN
+F 0 "R8" H 6045 2446 50  0000 L CNN
 F 1 "R_10K" H 6045 2355 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5905 2400 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6055 2400 50  0001 C CNN
@@ -988,4 +870,118 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 645
 	1    5975 2400
 	1    0    0    -1  
 $EndComp
+NoConn ~ 7900 5125
+Text Label 7900 5325 2    50   ~ 0
+MOSI
+$Comp
+L power:VCC #PWR013
+U 1 1 5CB6F2B9
+P 7275 5200
+F 0 "#PWR013" H 7275 5050 50  0001 C CNN
+F 1 "VCC" H 7292 5373 50  0000 C CNN
+F 2 "" H 7275 5200 50  0001 C CNN
+F 3 "" H 7275 5200 50  0001 C CNN
+	1    7275 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 7900 5225 2    50   ~ 0
+SD_CS
+Wire Wire Line
+	7900 5425 7275 5425
+Wire Wire Line
+	7275 5425 7275 5200
+Text Label 7900 5525 2    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR012
+U 1 1 5CB7648D
+P 7000 5725
+F 0 "#PWR012" H 7000 5475 50  0001 C CNN
+F 1 "GND" H 7005 5552 50  0000 C CNN
+F 2 "" H 7000 5725 50  0001 C CNN
+F 3 "" H 7000 5725 50  0001 C CNN
+	1    7000 5725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5625 7000 5625
+Wire Wire Line
+	7000 5625 7000 5725
+Text Label 7900 5725 2    50   ~ 0
+MISO
+$Comp
+L rocketry:MicroSD_V2 SD1
+U 1 1 5CB6A124
+P 8800 5575
+F 0 "SD1" H 9629 5621 50  0000 L CNN
+F 1 "MicroSD_V2" H 9629 5530 50  0000 L CNN
+F 2 "rocketry:Micro_SD_Card_Holder_Molex" H 8850 6825 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2201778&DocType=Customer+Drawing&DocLang=JP" H 8900 6475 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0473521001/WM3290CT-ND/2405698" H 9100 6675 50  0001 C CNN "Purchasing Link"
+F 5 "WM3290CT-ND" H 8800 6575 50  0001 C CNN "Digi-Key Part Number"
+F 6 "0473521001" H 8800 6675 50  0001 C CNN "MPN"
+	1    8800 5575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 5825
+Wire Wire Line
+	1600 6900 1750 6900
+Text Label 1750 6900 0    50   ~ 0
+Dectect_LED
+Text Label 7900 5925 2    50   ~ 0
+Dectect_LED
+$Comp
+L power:VCC #PWR011
+U 1 1 5CB8BA57
+P 4050 5750
+F 0 "#PWR011" H 4050 5600 50  0001 C CNN
+F 1 "VCC" H 4067 5923 50  0000 C CNN
+F 2 "" H 4050 5750 50  0001 C CNN
+F 3 "" H 4050 5750 50  0001 C CNN
+	1    4050 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 5CB8BC42
+P 10425 675
+F 0 "#PWR015" H 10425 525 50  0001 C CNN
+F 1 "VCC" H 10442 848 50  0000 C CNN
+F 2 "" H 10425 675 50  0001 C CNN
+F 3 "" H 10425 675 50  0001 C CNN
+	1    10425 675 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5CB8BFB3
+P 9125 2825
+F 0 "#PWR014" H 9125 2675 50  0001 C CNN
+F 1 "VCC" H 9142 2998 50  0000 C CNN
+F 2 "" H 9125 2825 50  0001 C CNN
+F 3 "" H 9125 2825 50  0001 C CNN
+	1    9125 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5CB8C32E
+P 1625 2375
+F 0 "#PWR06" H 1625 2225 50  0001 C CNN
+F 1 "VCC" H 1642 2548 50  0000 C CNN
+F 2 "" H 1625 2375 50  0001 C CNN
+F 3 "" H 1625 2375 50  0001 C CNN
+	1    1625 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 2450 1625 2375
+Wire Wire Line
+	1375 2450 1625 2450
+Text Label 9825 1525 2    50   ~ 0
+Dectect_LED
+Text Label 5975 2800 0    50   ~ 0
+SDA
+Text Label 5525 2700 0    50   ~ 0
+SCL
 $EndSCHEMATC
