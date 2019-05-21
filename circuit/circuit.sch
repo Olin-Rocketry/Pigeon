@@ -341,14 +341,6 @@ F 3 "" H 1475 1400 50  0001 C CNN
 	1    1475 1400
 	1    0    0    -1  
 $EndComp
-Text Label 1375 2650 0    50   ~ 0
-MISO
-Text Label 1375 2750 0    50   ~ 0
-SCK
-Text Label 1375 2850 0    50   ~ 0
-RESET
-Text Label 1375 3050 0    50   ~ 0
-MOSI
 Wire Wire Line
 	9125 2925 9125 2825
 Wire Wire Line
@@ -523,35 +515,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 $EndComp
 NoConn ~ 2350 5775
 NoConn ~ 11050 6725
-$Comp
-L rocketry:USB_MicroB U5
-U 1 1 5C686BB4
-P 1075 2650
-F 0 "U5" H 1130 3117 50  0000 C CNN
-F 1 "USB_MicroB" H 1130 3026 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1025 3000 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 1025 3000 50  0001 C CNN
-F 4 "DK" H 1325 2400 50  0001 C CNN "MFN"
-F 5 "WM1399CT-ND" H 1425 2500 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" H 1525 2600 50  0001 C CNN "PurchasingLink"
-	1    1075 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1075 3050 1375 3050
-Wire Wire Line
-	975  3050 975  3125
-$Comp
-L power:GND #PWR01
-U 1 1 5C68DB3A
-P 975 3125
-F 0 "#PWR01" H 975 2875 50  0001 C CNN
-F 1 "GND" H 980 2952 50  0000 C CNN
-F 2 "" H 975 3125 50  0001 C CNN
-F 3 "" H 975 3125 50  0001 C CNN
-	1    975  3125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4075 2750 4075 2850
 Wire Wire Line
@@ -963,25 +926,62 @@ F 3 "" H 9125 2825 50  0001 C CNN
 	1    9125 2825
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR06
-U 1 1 5CB8C32E
-P 1625 2375
-F 0 "#PWR06" H 1625 2225 50  0001 C CNN
-F 1 "VCC" H 1642 2548 50  0000 C CNN
-F 2 "" H 1625 2375 50  0001 C CNN
-F 3 "" H 1625 2375 50  0001 C CNN
-	1    1625 2375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1625 2450 1625 2375
-Wire Wire Line
-	1375 2450 1625 2450
 Text Label 9825 1525 2    50   ~ 0
 Dectect_LED
 Text Label 5975 2800 0    50   ~ 0
 SDA
 Text Label 5525 2700 0    50   ~ 0
 SCL
+$Comp
+L power:VCC #PWR06
+U 1 1 5CB8C32E
+P 2200 2900
+F 0 "#PWR06" H 2200 2750 50  0001 C CNN
+F 1 "VCC" H 2217 3073 50  0000 C CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "" H 2200 2900 50  0001 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C68DB3A
+P 2150 3550
+F 0 "#PWR01" H 2150 3300 50  0001 C CNN
+F 1 "GND" H 2155 3377 50  0000 C CNN
+F 2 "" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
+	1    0    0    -1  
+$EndComp
+Text Label 2000 3350 0    50   ~ 0
+MOSI
+Text Label 1500 3450 2    50   ~ 0
+RESET
+Text Label 1500 3350 2    50   ~ 0
+SCK
+Text Label 1500 3250 2    50   ~ 0
+MISO
+$Comp
+L formula:CONN_02X03 J2
+U 1 1 5CE52224
+P 1750 3350
+F 0 "J2" H 1750 3665 50  0000 C CNN
+F 1 "CONN_02X03" H 1750 3574 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 1750 2150 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 1750 2150 50  0001 C CNN
+F 4 "DK" H 1750 3350 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 1750 3350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 2150 3950 60  0001 C CNN "PurchasingLink"
+	1    1750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3250 2200 3250
+Wire Wire Line
+	2200 3250 2200 2900
+Wire Wire Line
+	2000 3450 2150 3450
+Wire Wire Line
+	2150 3450 2150 3550
 $EndSCHEMATC
