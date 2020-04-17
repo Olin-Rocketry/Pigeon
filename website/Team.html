@@ -17,8 +17,8 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="Index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="About.html" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
     <a href="Competition.html" class="w3-bar-item w3-button w3-padding-large">COMPETITION</a>
+    <a href="Archive.html" class="w3-bar-item w3-button w3-padding-large">ARCHIVE</a>  
     <a href="Team.html" class="w3-bar-item w3-button w3-padding-large">TEAM</a>
     <a href="Donate.html" class="w3-bar-item w3-button w3-padding-large">DONATE</a>
   </div>
@@ -67,14 +67,45 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Tour Section -->
   <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h1 class="w3-wide w3-center">VIDEOS FROM THE LEADS THAT WE RECORDED IN THE LAB?</h1>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
+      <h1 class="w3-wide w3-center">AVIONICS</h1>
       <ul class="w3-ul w3-border w3-white">
-		  <li class="w3-padding"><font size="4">M </font><p><font size="3"><b> XXX </b></font></p></li>
-		  <li class="w3-padding"><font size="4">N </font><p><font size="3"><b> XXX </b></font></p></li>
-		  <li class="w3-padding"><font size="4">O </font><p><font size="3"><b> XXX </b></font></p></li>
-		  <li class="w3-padding"><font size="4">P </font><p><font size="3"><b> XXX </b></font></p></li>
-		  <li class="w3-padding"><font size="4">Q </font><p><font size="3"><b> XXX </b></font></p></li>
+		  <li class="w3-padding"><font size="4">Electromechanical Integration Team - Rohil Agarwal 23', Annie Chu 22'</font>
+		  <p><font size="3"><b> Recovery Module Test PCB:</b></font></p> 
+		  <p><font size="3"> Once the rocket reaches apogee (10,000 feet), this PCB will send commands from the radio to the nichrome wire and solenoid valves, which will deploy the main and drogue parachutes, respectively. This board design will be used for ground tests. For the final versions of the board that will actually go on the rocket, the radio module, programming module, and microcontroller will be placed on other boards, and this PCB will basically serve as a switch.</font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> The first design of the recovery board has been manufactured and is in the process of being populated. </font></p> 
+		  </li>
+		  <li class="w3-padding"><font size="4">Power Team - Dhara Patel 22'</font>
+		  <p><font size="3"><b> Power Test PCB:</b></font></p> 
+		  <p><font size="3"> Our rocket will be powered by a 12V lithium-ion battery pack. The battery pack is split into 2 independent groups that are in parallel. Each group contains 3 cells that are in series. There are many factors that determine a good battery management system. We are choosing to focus on providing telemetry, safety faults (temperature, over-voltage, and over-current protection), and passive cell balancing. We will be using the MAX1647 to charge and discharge the battery pack. </font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> The first iteration of the battery management system is under final review. After review it will be manufactured and tested.</font></p> 
+		  </li>
+		  <li class="w3-padding"><font size="4">Sensing Team - Sander Miller 22'</font>
+		  <p><font size="3"><b> Main Computer Test PCB: </b></font></p> 
+		  <p><font size="3"> XXX </font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> XXX </font></p> 
+		  </li>
+		  <li class="w3-padding"><font size="4">Communications Team - Regan Mah 23'</font>
+		  <p><font size="3"><b> Communications Test PCB:</b></font></p> 
+		  <p><font size="3"> Communications PCB is using the LoRa radio to transfer information from the rocket to the main computer. As the rocket is in flight, the two LoRa radios will communicate with one another--one radio will take the information from the rocket’s other systems while the other will receive the data and display it for us to see. </font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> As of now, the radios are able to communicate and transfer information. Most of this semester was spent editing code and implementing it into the radios. As of now, we have not gotten to test how far of a distance the communication lasts, and most manuals don’t seem to give a definitive answer. </font></p> 
+		  </li>
+		  <li class="w3-padding"><font size="4">Software Team - Alex Bahner 21', Alex Butler 23'</font>
+		  <p><font size="3"><b> Main Computer: </b></font></p> 
+		  <p><font size="3"> From its initial launch position on the pad to its final destination after launch, all systems of the avionics subteam must be able to interface with the main computer. The main computer has two primary jobs during the flight of the rocket. Foremost, the computer will interface with the sensing module to take in the information necessary to determine when to interface with the recovery module. Throughout the flight, it will also pass on necessary flight information to the ground station every second (including GPS coordinates, readouts from the sensing board, and all battery and arming information), while also writing to an onboard “blackbox” to validate the flight data. </font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> Data logger has been finished. Exploratory work into Kalman filters for onboard flight analysis for triggering the recovery payload has begun with breakout boards; however, needs lots of tuning. Firmware has been compiled for all sensing and interfacing boards with the main computer and is ready for the microcontroller and breakout boards. </font></p> 
+		  </li>
+		  <li class="w3-padding"><font size="4">Research and Development Team - Thomas Jagielski 22', Sparsh Bansal 22'</font>
+		  <p><font size="3"><b> Main Computer: </b></font></p> 
+		  <p><font size="3"> From its initial launch position on the pad to its final destination after launch, all systems of the avionics subteam must be able to interface with the main computer. The main computer has two primary jobs during the flight of the rocket. Foremost, the computer will interface with the sensing module to take in the information necessary to determine when to interface with the recovery module. Throughout the flight, it will also pass on necessary flight information to the ground station every second (including GPS coordinates, readouts from the sensing board, and all battery and arming information), while also writing to an onboard “blackbox” to validate the flight data. </font></p> 
+		  <p><font size="3"><b> Progress: </b></font></p> 
+		  <p><font size="3"> Data logger has been finished. Exploratory work into Kalman filters for onboard flight analysis for triggering the recovery payload has begun with breakout boards; however, needs lots of tuning. Firmware has been compiled for all sensing and interfacing boards with the main computer and is ready for the microcontroller and breakout boards. </font></p> 
+		  </li>
       </ul>
     </div>
   </div>
