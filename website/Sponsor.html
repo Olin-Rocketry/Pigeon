@@ -28,49 +28,24 @@ body {font-family: "Lato", sans-serif}
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
-<div class="w3-black" id="slideshow">
-  <div class="mySlides w3-display-container w3-center">
-    <img src="vfrG1M5.jpg" alt="photo" style="width:50%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h2>Picture 1</h2>
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="vfrG1M5.jpg" alt="photo" style="width:50%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h2>Picture 2</h2>
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="vfrG1M5.jpg" alt="photo" style="width:50%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h2>Picture 3</h2>
-	   </div>
-    </div>
-  </div>
-
   <!-- The First Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h1 class="w3-wide"><b>PHOENIX 2B</b></h1>
-    <p class="w3-opacity"><font size="4"><i> TEXT </i></font></p>
+    <h1 class="w3-wide"><b>OUR SPONSORS</b></h1>
+	<p class="w3-opacity"><font size="4"><i> TEXT</i></font></p>
     <p class="w3-justify"><font size="3"> TEXT </font></p>
   </div>
 
   <!-- The Second Section -->
   <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
-      <h1 class="w3-wide w3-center">PHOENIX 2</h1>
-      <p class="w3-opacity"><font size="4"><i> TEXT </i></font></p>
-      <p class="w3-justify"><font size="3"> TEXT </font></p>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
+      <h1 class="w3-wide w3-center">SPONSORSHIP TIERS</h1>
+      <ul class="w3-ul w3-border w3-white">
+		  <li class="w3-padding"><font size="4">Osprey Level ($500 - $999) </font><p><font size="3"><b> XXX </b></font></p></li>
+		  <li class="w3-padding"><font size="4">Falcon Level ($1000 - $1499) </font><p><font size="3"><b> XXX </b></font></p></li>
+		  <li class="w3-padding"><font size="4">Eagle Level ($1500 - $2499) </font><p><font size="3"><b> XXX </b></font></p></li>
+		  <li class="w3-padding"><font size="4">Phoenix Level ($2,500 and Up) </font><p><font size="3"><b> XXX </b></font></p></li>
+      </ul>
     </div>
-  </div>
-
-    <!-- The Third Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h1 class="w3-wide"><b>PHOENIX 1</b></h1>
-    <p class="w3-opacity"><font size="4"><i> TEXT </i></font></p>
-    <p class="w3-justify"><font size="3"> TEXT </font></p>
   </div>
 
   <!-- The Contact Section -->
@@ -91,7 +66,7 @@ body {font-family: "Lato", sans-serif}
 <img src="vfrG1M5.jpg" alt="photo" class="w3-image w3-greyscale-min" style="width:100%">
 
 <script>
-// Automatic Slideshow - change image every 4 seconds
+// Automatic Slideshow - change image every 10 seconds
 var myIndex = 0;
 carousel();
 
@@ -104,7 +79,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
+  setTimeout(carousel, 10000);    
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
